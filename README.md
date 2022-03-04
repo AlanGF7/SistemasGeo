@@ -1,2 +1,1 @@
-# SistemasGeo
-Repositorio de proyectos en Sistemas Georeferenciados
+Prueba de readme
