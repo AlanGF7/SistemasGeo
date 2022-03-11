@@ -21,12 +21,17 @@
             if(navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(muestraPosicion)
             }
+            else
+            {
+                var alerta = document.getElementById("alerta");
+                alerta.innerHTML = "El navegador no dispone que geolocalización";
+            }
         }
 
         function muestraPosicion(posicion){
             var coordenadas = posicion.coords.latitude + "," + posicion.coords.longitude
             var imagenMapa = document.getElementById('imagenMapa')
-            imagenMapa.src = "https://maps.googleapis.com/maps/api/staticmap?center=" + coordenadas + "&zoom=18&size800x800&key=AIzaSyB2512VjuxatGrTju_dGJpNmLSpFJX_U8w"
+            imagenMapa.src = "https://maps.googleapis.com/maps/api/staticmap?center=" + coordenadas + "&zoom=18&size800x800&key=AIzaSyDxwfICMSpxpFgmp0zsvYyZG0qr0wdvz-Y&callback=getLocation"
         }
     </script>
 
