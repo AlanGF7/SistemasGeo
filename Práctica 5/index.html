@@ -49,7 +49,7 @@
                             lng: position.coords.longitude
                         }
 
-                        let propiedadesMarcador = {
+                        let markerProps = {
                             position: posicion,
                             map,
                             title: "Marcador"
@@ -57,7 +57,7 @@
                     }
                 )
 
-                const marcador = new google.maps.Marker(propiedadesMarcador)
+                const marcador = new google.maps.Marker(markerProps)
                 map.setCenter(posicion);
                 const infoWindow = new google.maps.infoWindow({
                     content: informacion
