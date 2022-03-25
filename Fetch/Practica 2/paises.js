@@ -11,7 +11,7 @@ fetch("datos.json").then(response => {
             paises.appendChild(renglon);
 
             let columna = document.createElement("div")
-            columna.className = "col-12 m-2"
+            columna.className = "col-12"
             paises.appendChild(columna);
 
             let nombre = document.createElement("p")
