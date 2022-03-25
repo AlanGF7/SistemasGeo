@@ -1,6 +1,7 @@
 var paises = document.getElementById("paises")
 
-fetch("https://sistemasgeo.com/2022/fetch/paises.json").then(response => {
+//https://sistemasgeo.com/2022/fetch/paises.json
+fetch("datos.json").then(response => {
     console.log(response)
     response.json().then(datos => {
         let contador = 1;
