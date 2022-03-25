@@ -2,7 +2,6 @@ var paises = document.getElementById("paises")
 
 //https://sistemasgeo.com/2022/fetch/paises.json
 fetch("datos.json").then(response => {
-    console.log(response)
     response.json().then(datos => {
         let contador = 1;
         datos.forEach(registro => {
