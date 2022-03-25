@@ -6,11 +6,11 @@ fetch("https://sistemasgeo.com/2022/fetch/paises.json").then(response => {
         let contador = 1;
         datos.forEach(registro => {
             let renglon = document.createElement("div")
-            renglon.className = "row border bg-light"
+            renglon.className = "row border bg-light m-2"
             paises.appendChild(renglon);
 
             let columna = document.createElement("div")
-            columna.className = "col-12"
+            columna.className = "col-12 m-2"
             paises.appendChild(columna);
 
             let nombre = document.createElement("p")
