@@ -20,18 +20,40 @@ html, body {
 
 #btnroadmap{
     background: radial-gradient(black,white);
+    color: white
 }
+
+#btnroadmap:hover{
+    background: radial-gradient(white,black);
+    color: black;
+}
+
 
 #btnsatellite{
     background: radial-gradient(black,green);
     color: white;
 }
 
+#btnsatellite:hover{
+    background: radial-gradient(green,black);
+}
+
 #btnhybrid{
     background: radial-gradient(red,yellow);
+    color: white
+}
+
+#btnhybrid:hover{
+    background: radial-gradient(yellow,red);
+    color: black;
 }
 
 #btnterrain{
     background: radial-gradient(white,brown);
+    color: black;
+}
+
+#btnterrain:hover{
+    background: radial-gradient(brown,white);
     color: black;
 }
