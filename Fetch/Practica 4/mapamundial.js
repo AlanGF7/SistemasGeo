@@ -9,7 +9,8 @@ var propiedades = {
 };
 
 function iniciaMapa() {
-    fetch('https://sistemasgeo.com/2022/fetch/paises.json')
+    //fetch('https://sistemasgeo.com/2022/fetch/paises.json')
+    fetch('datos.json')
     .then(function(response){
         response.json().then(function(datos){
             const map = new google.maps.Map(document.getElementById('mapa'), propiedades);
