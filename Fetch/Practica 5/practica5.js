@@ -29,7 +29,7 @@ var coordenadas = {
   lng: -101.68631,
 };
 
-function iniciaMapa() {
+function iniciarMapa() {
   var map = new google.maps.Map(document.getElementById("mapa"), {
     center: coordenadas,
     zoom: 3,
