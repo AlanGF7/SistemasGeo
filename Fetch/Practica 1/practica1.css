@@ -1,0 +1,62 @@
+body{
+    background-color: azure;
+}
+
+.main-text{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#main-container{
+    background-color: beige;
+    padding: 10px;
+}
+
+.paises{
+    margin-top: 20px;
+    border-radius: 80px;
+    height: 250px;
+    text-align: center;
+}
+
+#Mexico{
+    background: linear-gradient(red,white,green);
+    color: black;
+}
+
+#Mexico:hover{
+    background: linear-gradient(green,white,red);
+    transform: scale(1.1);
+}
+
+#Panama{
+    background: linear-gradient(red,white,blue);
+}
+
+#Panama:hover{
+    background: linear-gradient(blue,white,red);
+    transform: scale(1.1);
+}
+
+#Colombia{
+    background: linear-gradient(yellow,blue,red);
+    color: white;
+}
+
+#Colombia:hover{
+    background: linear-gradient(red,blue,yellow);
+    transform: scale(1.1);
+}
+
+#textMexico{
+    margin-top: 100px;
+}
+
+#textPanama{
+    margin-top: 100px;
+}
+
+#textColombia{
+    margin-top: 100px;
+}
