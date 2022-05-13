@@ -8,5 +8,14 @@
 </head>
 <body>
     
+    <h1>DLS Eats</h1>
+
+    <?php 
+
+    ini_set('display_errors',1);
+    ini_set('display_startup_errors',1);
+    error_reporting(E_ALL);
+    include("conexion/index.php")
+    ?>
 </body>
 </html>
